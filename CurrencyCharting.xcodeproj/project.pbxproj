@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C52C4AC17DDDD8E007E65CA /* SyncingCrosshair.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C52C4AB17DDDD8E007E65CA /* SyncingCrosshair.m */; };
+		8CBDB26617F1A7B000029CAA /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBDB26517F1A7B000029CAA /* ShinobiCharts.framework */; };
+		8CE39F7117DA1A8800A45B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE39F7017DA1A8800A45B1C /* Foundation.framework */; };
+		8CE39F7517DA1A8800A45B1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE39F7417DA1A8800A45B1C /* UIKit.framework */; };
+		8CE39F7B17DA1A8800A45B1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CE39F7917DA1A8800A45B1C /* InfoPlist.strings */; };
+		8CE39F7D17DA1A8800A45B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE39F7C17DA1A8800A45B1C /* main.m */; };
+		8CE39F8117DA1A8800A45B1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE39F8017DA1A8800A45B1C /* AppDelegate.m */; };
+		8CE39F8417DA1A8800A45B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE39F8217DA1A8800A45B1C /* Main.storyboard */; };
+		8CE39F8717DA1A8800A45B1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE39F8617DA1A8800A45B1C /* ViewController.m */; };
+		8CE39F8917DA1A8800A45B1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE39F8817DA1A8800A45B1C /* Images.xcassets */; };
+		8CE39FA817DA1B0200A45B1C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE39FA717DA1B0200A45B1C /* CoreText.framework */; };
+		8CE39FAA17DA1B0900A45B1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE39FA917DA1B0900A45B1C /* QuartzCore.framework */; };
+		8CE39FAC17DA1B1600A45B1C /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE39FAB17DA1B1600A45B1C /* libstdc++.dylib */; };
+		8CE39FB017DA1B3500A45B1C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE39FAF17DA1B3500A45B1C /* OpenGLES.framework */; };
+		8CE39FB517DA1B7E00A45B1C /* CurrencyChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE39FB217DA1B7E00A45B1C /* CurrencyChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C52C4AA17DDDD8E007E65CA /* SyncingCrosshair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncingCrosshair.h; sourceTree = "<group>"; };
+		8C52C4AB17DDDD8E007E65CA /* SyncingCrosshair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncingCrosshair.m; sourceTree = "<group>"; };
+		8CBDB26517F1A7B000029CAA /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShinobiCharts.framework; path = Library/Frameworks/ShinobiCharts.framework; sourceTree = DEVELOPER_DIR; };
+		8CE39F6D17DA1A8800A45B1C /* CurrencyCharting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyCharting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE39F7017DA1A8800A45B1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CE39F7417DA1A8800A45B1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CE39F7817DA1A8800A45B1C /* CurrencyCharting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyCharting-Info.plist"; sourceTree = "<group>"; };
+		8CE39F7A17DA1A8800A45B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CE39F7C17DA1A8800A45B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CE39F7E17DA1A8800A45B1C /* CurrencyCharting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurrencyCharting-Prefix.pch"; sourceTree = "<group>"; };
+		8CE39F7F17DA1A8800A45B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CE39F8017DA1A8800A45B1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CE39F8317DA1A8800A45B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CE39F8517DA1A8800A45B1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CE39F8617DA1A8800A45B1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CE39F8817DA1A8800A45B1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CE39FA717DA1B0200A45B1C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8CE39FA917DA1B0900A45B1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8CE39FAB17DA1B1600A45B1C /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		8CE39FAF17DA1B3500A45B1C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8CE39FB117DA1B7E00A45B1C /* CurrencyChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyChart.h; sourceTree = "<group>"; };
+		8CE39FB217DA1B7E00A45B1C /* CurrencyChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyChart.m; sourceTree = "<group>"; };
+		8CE39FB717DA2C4000A45B1C /* SyncingCrosshairDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncingCrosshairDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CE39F6A17DA1A8800A45B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBDB26617F1A7B000029CAA /* ShinobiCharts.framework in Frameworks */,
+				8CE39FB017DA1B3500A45B1C /* OpenGLES.framework in Frameworks */,
+				8CE39FAC17DA1B1600A45B1C /* libstdc++.dylib in Frameworks */,
+				8CE39FAA17DA1B0900A45B1C /* QuartzCore.framework in Frameworks */,
+				8CE39FA817DA1B0200A45B1C /* CoreText.framework in Frameworks */,
+				8CE39F7517DA1A8800A45B1C /* UIKit.framework in Frameworks */,
+				8CE39F7117DA1A8800A45B1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CE39F6417DA1A8800A45B1C = {
+			isa = PBXGroup;
+			children = (
+				8CE39F7617DA1A8800A45B1C /* CurrencyCharting */,
+				8CE39F6F17DA1A8800A45B1C /* Frameworks */,
+				8CE39F6E17DA1A8800A45B1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CE39F6E17DA1A8800A45B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CE39F6D17DA1A8800A45B1C /* CurrencyCharting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CE39F6F17DA1A8800A45B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CBDB26517F1A7B000029CAA /* ShinobiCharts.framework */,
+				8CE39FAB17DA1B1600A45B1C /* libstdc++.dylib */,
+				8CE39FA717DA1B0200A45B1C /* CoreText.framework */,
+				8CE39F7017DA1A8800A45B1C /* Foundation.framework */,
+				8CE39FAF17DA1B3500A45B1C /* OpenGLES.framework */,
+				8CE39FA917DA1B0900A45B1C /* QuartzCore.framework */,
+				8CE39F7417DA1A8800A45B1C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CE39F7617DA1A8800A45B1C /* CurrencyCharting */ = {
+			isa = PBXGroup;
+			children = (
+				8CE39F7F17DA1A8800A45B1C /* AppDelegate.h */,
+				8CE39F8017DA1A8800A45B1C /* AppDelegate.m */,
+				8CE39F8217DA1A8800A45B1C /* Main.storyboard */,
+				8CE39F8517DA1A8800A45B1C /* ViewController.h */,
+				8CE39F8617DA1A8800A45B1C /* ViewController.m */,
+				8CE39FB117DA1B7E00A45B1C /* CurrencyChart.h */,
+				8CE39FB217DA1B7E00A45B1C /* CurrencyChart.m */,
+				8CE39FB717DA2C4000A45B1C /* SyncingCrosshairDelegate.h */,
+				8C52C4AA17DDDD8E007E65CA /* SyncingCrosshair.h */,
+				8C52C4AB17DDDD8E007E65CA /* SyncingCrosshair.m */,
+				8CE39F8817DA1A8800A45B1C /* Images.xcassets */,
+				8CE39F7717DA1A8800A45B1C /* Supporting Files */,
+			);
+			path = CurrencyCharting;
+			sourceTree = "<group>";
+		};
+		8CE39F7717DA1A8800A45B1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE39F7817DA1A8800A45B1C /* CurrencyCharting-Info.plist */,
+				8CE39F7917DA1A8800A45B1C /* InfoPlist.strings */,
+				8CE39F7C17DA1A8800A45B1C /* main.m */,
+				8CE39F7E17DA1A8800A45B1C /* CurrencyCharting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CE39F6C17DA1A8800A45B1C /* CurrencyCharting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CE39F9F17DA1A8800A45B1C /* Build configuration list for PBXNativeTarget "CurrencyCharting" */;
+			buildPhases = (
+				8CE39F6917DA1A8800A45B1C /* Sources */,
+				8CE39F6A17DA1A8800A45B1C /* Frameworks */,
+				8CE39F6B17DA1A8800A45B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurrencyCharting;
+			productName = CurrencyCharting;
+			productReference = 8CE39F6D17DA1A8800A45B1C /* CurrencyCharting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CE39F6517DA1A8800A45B1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Simon Withington";
+			};
+			buildConfigurationList = 8CE39F6817DA1A8800A45B1C /* Build configuration list for PBXProject "CurrencyCharting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CE39F6417DA1A8800A45B1C;
+			productRefGroup = 8CE39F6E17DA1A8800A45B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CE39F6C17DA1A8800A45B1C /* CurrencyCharting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CE39F6B17DA1A8800A45B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE39F8917DA1A8800A45B1C /* Images.xcassets in Resources */,
+				8CE39F7B17DA1A8800A45B1C /* InfoPlist.strings in Resources */,
+				8CE39F8417DA1A8800A45B1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CE39F6917DA1A8800A45B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C52C4AC17DDDD8E007E65CA /* SyncingCrosshair.m in Sources */,
+				8CE39F8717DA1A8800A45B1C /* ViewController.m in Sources */,
+				8CE39F8117DA1A8800A45B1C /* AppDelegate.m in Sources */,
+				8CE39F7D17DA1A8800A45B1C /* main.m in Sources */,
+				8CE39FB517DA1B7E00A45B1C /* CurrencyChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CE39F7917DA1A8800A45B1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE39F7A17DA1A8800A45B1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CE39F8217DA1A8800A45B1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CE39F8317DA1A8800A45B1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CE39F9D17DA1A8800A45B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8CE39F9E17DA1A8800A45B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CE39FA017DA1A8800A45B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/swithington/Documents/ShinobiControls/iOS\\ 7/CurrencyCharting",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyCharting/CurrencyCharting-Prefix.pch";
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				INFOPLIST_FILE = "CurrencyCharting/CurrencyCharting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CE39FA117DA1A8800A45B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/swithington/Documents/ShinobiControls/iOS\\ 7/CurrencyCharting",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyCharting/CurrencyCharting-Prefix.pch";
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				INFOPLIST_FILE = "CurrencyCharting/CurrencyCharting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CE39F6817DA1A8800A45B1C /* Build configuration list for PBXProject "CurrencyCharting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE39F9D17DA1A8800A45B1C /* Debug */,
+				8CE39F9E17DA1A8800A45B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CE39F9F17DA1A8800A45B1C /* Build configuration list for PBXNativeTarget "CurrencyCharting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CE39FA017DA1A8800A45B1C /* Debug */,
+				8CE39FA117DA1A8800A45B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CE39F6517DA1A8800A45B1C /* Project object */;
+}

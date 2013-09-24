@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4488.2" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3715.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OWK-yr-DBP"/>
+                        <viewControllerLayoutGuide type="bottom" id="2hN-b1-Tl7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKx-M1-hSc" customClass="CurrencyChart">
+                                <rect key="frame" x="20" y="70" width="728" height="457"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vWY-ou-ZMh" customClass="CurrencyChart">
+                                <rect key="frame" x="20" y="547" width="728" height="457"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Historic Exchange Rates" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLA-wS-kpI">
+                                <rect key="frame" x="0.0" y="30" width="768" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="gLA-wS-kpI" secondAttribute="trailing" id="9dO-ft-2Pb"/>
+                            <constraint firstItem="gLA-wS-kpI" firstAttribute="top" secondItem="OWK-yr-DBP" secondAttribute="bottom" constant="10" id="LJW-hi-4yr"/>
+                            <constraint firstItem="vWY-ou-ZMh" firstAttribute="top" secondItem="KKx-M1-hSc" secondAttribute="bottom" constant="20" id="PWt-4A-VmP"/>
+                            <constraint firstAttribute="trailing" secondItem="vWY-ou-ZMh" secondAttribute="trailing" constant="20" id="XG8-6M-YDD"/>
+                            <constraint firstItem="2hN-b1-Tl7" firstAttribute="top" secondItem="vWY-ou-ZMh" secondAttribute="bottom" constant="20" id="XPr-lN-raV"/>
+                            <constraint firstItem="vWY-ou-ZMh" firstAttribute="height" secondItem="KKx-M1-hSc" secondAttribute="height" id="Zcp-LH-WBN"/>
+                            <constraint firstAttribute="trailing" secondItem="KKx-M1-hSc" secondAttribute="trailing" constant="20" id="eCA-vL-2xF"/>
+                            <constraint firstItem="vWY-ou-ZMh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="iYW-zn-sDJ"/>
+                            <constraint firstItem="KKx-M1-hSc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="lYR-jB-mbB"/>
+                            <constraint firstItem="KKx-M1-hSc" firstAttribute="top" secondItem="gLA-wS-kpI" secondAttribute="bottom" constant="10" id="r80-zO-D2K"/>
+                            <constraint firstItem="gLA-wS-kpI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zK6-lv-5ES"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dollarsChart" destination="KKx-M1-hSc" id="sDU-aa-kHh"/>
+                        <outlet property="eurosChart" destination="vWY-ou-ZMh" id="pGI-Tq-ouT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
